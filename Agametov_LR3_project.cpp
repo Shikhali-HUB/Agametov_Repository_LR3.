@@ -24,6 +24,10 @@ int Git_n(int N) {
         }
     } while (N >= 1 || N < 3);*/
 }
+int Git_x(int X) {
+    // int first = X / 100;
+    // cout << "Первая цифра числа X: " << first << endl;
+}
 
 int main(){
     int choice;
