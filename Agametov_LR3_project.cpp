@@ -28,6 +28,17 @@ int Git_x(int X) {
     // int first = X / 100;
     // cout << "Первая цифра числа X: " << first << endl;
 }
+int Git_a(int X, int N) {
+    // int n;
+    // if (N == 1) {
+    //     n = X % 10; 
+    // } else if (N == 2) {
+    //     n = (X / 10) % 10;
+    // } else if (N == 3) {
+    //     n = X / 100; 
+    // }
+    // cout << N << "-я цифра числа X (считаем справа налево): " << n << endl;
+}
 
 int main(){
     int choice;
