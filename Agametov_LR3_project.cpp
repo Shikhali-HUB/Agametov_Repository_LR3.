@@ -5,39 +5,38 @@
 using namespace std;
 
 void Git_A(int X) {
-    /*do {
+    do {
         cout << "Введите целое трехзначное число X: ";
         cin >> X;
         if (X < 100 || X > 999) {
             cout << "Ошибка: число должно быть трехзначным. Попробуйте еще раз.\n";
         }
     } while (X < 100 || X > 999);
-*/
 }
 
 int Git_n(int N) {
-    /*do {
+    do {
         cout << "Введите цифру N (меньше числа разрядов числа X, т.e. от 1 до 3): ";
         cin >> N;
         if (N < 1 || N > 3) {
             cout << "Ошибка: N должно быть в диапазоне от 1 до 3. Попробуйте еще раз.\n";
         }
-    } while (N >= 1 || N < 3);*/
+    } while (N >= 1 || N < 3);
 }
 int Git_x(int X) {
-    // int first = X / 100;
-    // cout << "Первая цифра числа X: " << first << endl;
+    int first = X / 100;
+    cout << "Первая цифра числа X: " << first << endl;
 }
 int Git_a(int X, int N) {
-    // int n;
-    // if (N == 1) {
-    //     n = X % 10; 
-    // } else if (N == 2) {
-    //     n = (X / 10) % 10;
-    // } else if (N == 3) {
-    //     n = X / 100; 
-    // }
-    // cout << N << "-я цифра числа X (считаем справа налево): " << n << endl;
+    int n;
+    if (N == 1) {
+        n = X % 10; 
+    } else if (N == 2) {
+        n = (X / 10) % 10;
+    } else if (N == 3) {
+        n = X / 100; 
+    }
+    cout << N << "-я цифра числа X (считаем справа налево): " << n << endl;
 }
 
 int main(){
