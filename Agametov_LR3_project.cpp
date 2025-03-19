@@ -4,6 +4,17 @@
 
 using namespace std;
 
+void Git_A(int X) {
+    /*do {
+        cout << "Введите целое трехзначное число X: ";
+        cin >> X;
+        if (X < 100 || X > 999) {
+            cout << "Ошибка: число должно быть трехзначным. Попробуйте еще раз.\n";
+        }
+    } while (X < 100 || X > 999);
+*/
+}
+
 int main(){
     int choice;
     int X,N;
